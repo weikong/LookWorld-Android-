@@ -1,9 +1,11 @@
-package com.look.world;
+package com.look.world.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.look.world.R;
+import com.look.world.activity.base.AbsBaseActivity;
+
+public class MainActivity extends AbsBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

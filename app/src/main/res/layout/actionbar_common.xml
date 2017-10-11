@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:clickable="true"
+    android:minHeight="46dp">
+
+    <View
+        android:id="@+id/view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:background="@color/color_theme" />
+
+    <RelativeLayout
+        android:id="@+id/layout_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:padding="4dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            android:src="@drawable/fanhui" />
+
+        <TextView
+            android:id="@+id/actionbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/fanhui"
+            android:text="返回"
+            android:textColor="@color/color_ffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="middle"
+        android:maxWidth="240dp"
+        android:singleLine="true"
+        android:text="生活状态"
+        android:textColor="@color/color_ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/actionbar_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="4dp"
+        android:padding="8dp"
+        android:text="发布"
+        android:textColor="@color/color_ffffff" />
+</RelativeLayout>

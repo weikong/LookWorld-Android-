@@ -4,5 +4,17 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_000000">#000000</color>
     <color name="activity_bg_color">#e8e8e8</color>
+    <color name="color_tab_normal">#5ea1a1</color>
+    <color name="color_tab_press">#3fc1c1</color>
+    <color name="color_cfceca">#cfceca</color>
+    <color name="color_word1">#544641</color>
+    <color name="color_word2">#a29792</color>
+    <color name="color_bg">#f5f4ef</color>
+    <color name="color_line">#e8e8e8</color>
+    <color name="color_price">#f64b55</color>
+    <color name="color_theme">#3fc1c1</color>
+    <color name="color_theme_2">#5ea1a1</color>
 </resources>
